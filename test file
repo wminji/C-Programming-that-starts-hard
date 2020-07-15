@@ -1,0 +1,21 @@
+//github test용
+
+#include <stdio.h>
+int main(void)
+{
+	int i,x, y, z,r;
+	x = 0;
+	z = 0;
+
+	for (i = 1; i<=33; i++) {
+		printf("입력하시오");
+		scanf_s("%d", &y);
+		x = x + y;
+	}
+
+	printf("총합은 %d", x);
+
+
+
+	return 0;
+}
